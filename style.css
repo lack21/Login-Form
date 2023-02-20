@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100dvh;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: min(400px, 90vw);
+  padding: 2rem;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: 0.1rem solid #fff;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.container .title {
+  text-align: center;
+  color: #fff;
+  margin: 1rem 0 3rem;
+}
+.container .form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #fff;
+  margin-bottom: 0.5rem;
+}
+.container .form input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+  outline: none;
+  color: #fff;
+}
+.container .form .fa {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.container .checkbox-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.container .checkbox-form label {
+  margin-left: 0.5rem;
+  color: #fff;
+}
+.container .login-btn {
+  padding: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 0.2rem #fff;
+}
+.container .bottom-text {
+  text-align: center;
+  margin-top: 2rem;
+  color: #fff;
+}
+.container .bottom-text a {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
